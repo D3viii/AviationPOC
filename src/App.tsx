@@ -238,6 +238,7 @@ const thStyle: React.CSSProperties = {
   padding: 8,
   minWidth: 42,
   textAlign: "center",
+  color: "black",
   background: "#fafafa",
   position: "sticky",
   top: 0,
@@ -362,7 +363,7 @@ export default function App() {
 
   return (
     <div style={{ padding: 16, fontFamily: "system-ui, -apple-system, Segoe UI, Roboto, sans-serif" }}>
-      <h2 style={{ marginTop: 0 }}>Private Aviation Scheduling POC</h2>
+      <h2 style={{ marginTop: 0 }}>Scheduling POC</h2>
 
       <div style={{ display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center", marginBottom: 12 }}>
         <label>
